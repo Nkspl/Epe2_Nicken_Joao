@@ -16,11 +16,11 @@ namespace Epe2_Nicken_Joao
 
         protected void btnEnviar_Click(object sender, EventArgs e)
         {
-            string concat1 = TextBox1.Text + " " + TextBox1.Text;
-            string concat2 = TextBox2.Text + " " + TextBox2.Text;
-            string concat3 = TextBox3.Text + " ";
-            string concat4 = TextBox4.Text + " " + TextBox4.Text;
-            string concat5 = TextBox5.Text + " " + TextBox5.Text;
+            string concat1 = TextBox1.Text ;
+            string concat2 = TextBox2.Text ;
+            string concat3 = TextBox3.Text ;
+            string concat4 = TextBox4.Text ;
+            string concat5 = TextBox5.Text ;
 
             label1.Text = concat1;
             label2.Text = concat2;
